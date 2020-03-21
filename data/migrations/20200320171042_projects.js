@@ -1,5 +1,5 @@
 exports.up = function(knex) {
-  return knex.shema
+  return knex.schema
     .createTable("projects", (tbl) => {
       tbl.increments();
 
